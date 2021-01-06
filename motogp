@@ -1,0 +1,53 @@
+package abstract_inherit_poly_motogp;
+
+public class motogp {
+	String name, country, motor, score;
+	
+	motogp() {
+        this.name = "Fabio Quartararo";
+        this.motor = "Petronas Yamaha SRT";
+        this.country = "France";
+        this.score = "41'23.796";
+    }
+
+    motogp(String n,String m, String c, String s){
+        this.name = n;
+        this.motor = m;
+        this.country = c;
+        this.score = s;
+    }
+
+    public void printmotogp() {
+        motogp obj1 = new motogp();
+        motogp obj2 = new motogp("Maverick Vinales", "Monster Energy Yamaha", "Spain", "+4.603");
+        motogp obj3 = new motogp("Andrea Dovizioso", "Ducati", "Italy", "+5.946");
+        motogp obj4 = new motogp("Jack Miller", "Pramac Racing", "Australia", "+6.668");
+        motogp obj5 = new motogp("Franco Morbidelli", "Petronas Yamaha SRT", "Italy", "+6.844");
+        motogp obj6 = new motogp("Pol Espargaro", "Red Bull KTM Factory Racing", "Spain", "+6.938");
+        motogp obj7 = new motogp("Francesco Bagnaia", "Pramac Racing", "Italy", "+13.027");
+        motogp obj8 = new motogp("Miguel Oliveira", "Red Bull KTM Tech 3", "Portugal", "+13.441");
+        motogp obj9 = new motogp("Danilo Petrucci", "Ducati", "Italy", "+19.651");
+        motogp obj10 = new motogp("Takaagi Nakagami", "LCR Honda IDEMITSU", "Japan", "+21.553");
+        motogp obj11 = new motogp("Johann Zarco", "Hublot Reale Avintia Racing", "France", "+25.100");
+        motogp obj12 = new motogp("Alex Marquez", "Repsol Honda Team", "Spain", "+27.350");
+        motogp obj13 = new motogp("Brad Binder", "Red Bull KTM Factory Racing", "South Africa", "+29.640");
+        motogp obj14 = new motogp("Tito Rabat", "Hublot Reale Avintia Racing", "Spain", "+32.898");
+        motogp obj15 = new motogp("Bradley Smith", "Aprilia Racing Team Gresini", "England", "+39.682");
+        
+        System.out.println("Podium 1:\t"+obj1.name+"\t"+" Teammate :"+obj1.motor+"\t\t"+" Country :"+obj1.country+"\t"+" Last Score :"+obj1.score);
+        System.out.println("Podium 2:\t"+obj2.name+"\t"+" Teammate :"+obj2.motor+"\t"+" Country :"+obj2.country+"\t\t"+" Last Score :"+obj2.score);
+        System.out.println("Podium 3:\t"+obj3.name+"\t"+" Teammate :"+obj3.motor+"\t\t\t"+" Country :"+obj3.country+"\t\t"+" Last Score :"+obj3.score);
+        System.out.println("Podium 4:\t"+obj4.name+"\t\t"+" Teammate :"+obj4.motor+"\t\t"+" Country :"+obj4.country+"\t"+" Last Score :"+obj4.score);
+        System.out.println("Podium 5:\t"+obj5.name+"\t"+" Teammate :"+obj5.motor+"\t\t"+" Country :"+obj5.country+"\t\t"+" Last Score :"+obj5.score);
+        System.out.println("Podium 6:\t"+obj6.name+"\t\t"+" Teammate :"+obj6.motor+"\t"+" Country :"+obj6.country+"\t\t"+" Last Score :"+obj6.score);
+        System.out.println("Podium 7:\t"+obj7.name+"\t"+" Teammate :"+obj7.motor+"\t\t"+" Country :"+obj7.country+"\t\t"+" Last Score :"+obj7.score);
+        System.out.println("Podium 8:\t"+obj2.name+"\t"+" Teammate :"+obj8.motor+"\t\t"+" Country :"+obj8.country+"\t"+" Last Score :"+obj8.score);
+        System.out.println("Podium 9:\t"+obj9.name+"\t\t"+" Teammate :"+obj9.motor+"\t\t\t"+" Country :"+obj9.country+"\t\t"+" Last Score :"+obj9.score);
+        System.out.println("Podium 10:\t"+obj10.name+"\t"+" Teammate :"+obj10.motor+"\t\t"+" Country :"+obj10.country+"\t\t"+" Last Score :"+obj10.score);
+        System.out.println("Podium 11:\t"+obj11.name+"\t\t"+" Teammate :"+obj11.motor+"\t"+" Country :"+obj11.country+"\t"+" Last Score :"+obj11.score);
+        System.out.println("Podium 12:\t"+obj12.name+"\t\t"+" Teammate :"+obj12.motor+"\t\t"+" Country :"+obj12.country+"\t\t"+" Last Score :"+obj12.score);
+        System.out.println("Podium 13:\t"+obj13.name+"\t\t"+" Teammate :"+obj13.motor+"\t"+" Country :"+obj13.country+"\t"+" Last Score :"+obj13.score);
+        System.out.println("Podium 14:\t"+obj14.name+"\t\t"+" Teammate :"+obj14.motor+"\t"+" Country :"+obj14.country+"\t\t"+" Last Score :"+obj14.score);
+        System.out.println("Podium 15:\t"+obj15.name+"\t\t"+" Teammate :"+obj15.motor+"\t"+" Country :"+obj15.country+"\t"+" Last Score :"+obj15.score);
+    }
+}
