@@ -1,0 +1,12 @@
+package abstract_inherit_poly_motogp;
+
+public class main {
+    public static void main(String[] args) {
+
+    	System.out.println("\n\t\t\t\t\t\t\tThe Results of MotoGP Spain 2020: \n\t\t\t\t\t\t\t");
+    	
+        motogp m = new motogp();
+        m.printmotogp();
+
+    }
+}
